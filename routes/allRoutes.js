@@ -3,6 +3,7 @@ const categoryRoutes = require('../routes/categoryRoutes');
 const subCategoryRoutes = require('./subCategoryRoutes');
 const productRoutes = require('./productRoutes');
 const paymentRoutes = require('./paymentRoutes')
+
 routes.use('/api/categories', categoryRoutes);
 routes.use('/api/subcategories', subCategoryRoutes);
 routes.use('/api/products', productRoutes);
